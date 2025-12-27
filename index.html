@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Result System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Result Management System</h1>
+
+<div class="form">
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="number" id="math" placeholder="Math Marks">
+    <input type="number" id="science" placeholder="Science Marks">
+    <input type="number" id="english" placeholder="English Marks">
+    <input type="number" id="computer" placeholder="computer marks">
+    <button onclick="addResult()">Add Result</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Total</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="resultList"></tbody>
+</table>
+
+<script src="java.js"></script>
+</body>
+</html>
